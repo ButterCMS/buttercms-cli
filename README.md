@@ -19,7 +19,7 @@ $ npm install -g buttercms-cli
 $ buttercms COMMAND
 running command...
 $ buttercms (-v|--version|version)
-buttercms/0.0.1 linux-x64 node-v10.5.0
+buttercms-cli/0.0.1 darwin-x64 node-v9.8.0
 $ buttercms --help [COMMAND]
 USAGE
   $ buttercms COMMAND
@@ -28,23 +28,20 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`buttercms generate:blog`](#buttercms-generate)
+* [`buttercms generate:blog`](#buttercms-generateblog)
 * [`buttercms help [COMMAND]`](#buttercms-help-command)
 
 ## `buttercms generate:blog`
-
-Describe the command here
 
 ```
 USAGE
   $ buttercms generate:blog
 
 OPTIONS
-  --for=target  Target tech stack to generate the blog for (currently available: express)
-
+  --for=express  Target destination for the generator command
 ```
 
-
+_See code: [src/commands/generate/blog.js](https://github.com/deleteman/buttercms-cli/blob/v0.0.1/src/commands/generate/blog.js)_
 
 ## `buttercms help [COMMAND]`
 
@@ -61,4 +58,5 @@ OPTIONS
   --all  see all commands in CLI
 ```
 
+_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.1.2/src/commands/help.ts)_
 <!-- commandsstop -->

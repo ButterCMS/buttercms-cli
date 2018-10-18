@@ -1,7 +1,7 @@
 {
   "name": "buttercms-cli",
   "description": "CLI tool to work with ButterCMS",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Fernando Doglio @deleteman",
   "bin": {
     "buttercms": "./bin/run"
