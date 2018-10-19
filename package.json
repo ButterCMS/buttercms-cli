@@ -1,12 +1,12 @@
 {
   "name": "buttercms-cli",
-  "description": "CLI tool to work with ButterCMS",
-  "version": "0.0.2",
+  "description": "Generate the boilerplate code for a blog using ButterCMS for multiple languages and frameworks",
+  "version": "0.0.3",
   "author": "Fernando Doglio @deleteman",
   "bin": {
     "buttercms": "./bin/run"
   },
-  "bugs": "https://github.com/deleteman/buttercms-cli/issues",
+  "bugs": "https://github.com/buttercms/buttercms-cli/issues",
   "dependencies": {
     "@oclif/command": "^1.5.1",
     "@oclif/config": "^1.8.1",
@@ -29,7 +29,7 @@
     "/oclif.manifest.json",
     "/src"
   ],
-  "homepage": "https://github.com/deleteman/buttercms-cli",
+  "homepage": "https://github.com/buttercms/buttercms-cli",
   "keywords": [
     "oclif"
   ],
@@ -43,11 +43,11 @@
     ],
     "topics": {
       "generate:blog": {
-        "description": "Generate the boilerplate code for a blog using ButterCMS on top of Express"
+        "description": "Generate the boilerplate code for a blog using ButterCMS for multiple languages and frameworks"
       }
     }
   },
-  "repository": "deleteman/buttercms-cli",
+  "repository": "buttercms/buttercms-cli",
   "scripts": {
     "postpack": "rm -f oclif.manifest.json npm-shrinkwrap.json",
     "prepack": "oclif-dev manifest && oclif-dev readme && npm shrinkwrap",

@@ -19,7 +19,6 @@ $ npm install -g buttercms-cli
 $ buttercms COMMAND
 running command...
 $ buttercms (-v|--version|version)
-buttercms-cli/0.0.1 darwin-x64 node-v9.8.0
 $ buttercms --help [COMMAND]
 USAGE
   $ buttercms COMMAND
@@ -41,7 +40,7 @@ OPTIONS
   --for=express  Target destination for the generator command
 ```
 
-_See code: [src/commands/generate/blog.js](https://github.com/deleteman/buttercms-cli/blob/v0.0.1/src/commands/generate/blog.js)_
+_See code: [src/commands/generate/blog.js](https://github.com/deleteman/buttercms-cli/blob/v0.0.2/src/commands/generate/blog.js)_
 
 ## `buttercms help [COMMAND]`
 
