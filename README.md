@@ -1,7 +1,4 @@
-buttercms
-=========
-
-CLI tool to work with ButterCMS
+# Quickly launch new projects integrated with [ButterCMS](https://buttercms.com)
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/buttercms.svg)](https://npmjs.org/package/buttercms-cli)
@@ -12,20 +9,19 @@ CLI tool to work with ButterCMS
 * [Usage](#usage)
 * [Commands](#commands)
 <!-- tocstop -->
+
+# Supported Languages + Frameworks
+* [Express.js](https://expressjs.com/)
+* More coming soon... (want to see yours? Open a Github Issue to let us know)
+
 # Usage
 <!-- usage -->
 ```sh-session
 $ npm install -g buttercms-cli
-$ buttercms COMMAND
-running command...
-$ buttercms (-v|--version|version)
-buttercms-cli/0.0.3 darwin-x64 node-v9.8.0
 $ buttercms --help [COMMAND]
-USAGE
-  $ buttercms COMMAND
-...
 ```
 <!-- usagestop -->
+
 # Commands
 <!-- commands -->
 * [`buttercms generate:blog`](#buttercms-generateblog)
@@ -41,8 +37,6 @@ OPTIONS
   --for=express  Target destination for the generator command
 ```
 
-_See code: [src/commands/generate/blog.js](https://github.com/buttercms/buttercms-cli/blob/v0.0.3/src/commands/generate/blog.js)_
-
 ## `buttercms help [COMMAND]`
 
 display help for buttercms
@@ -57,6 +51,4 @@ ARGUMENTS
 OPTIONS
   --all  see all commands in CLI
 ```
-
-_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.1.2/src/commands/help.ts)_
 <!-- commandsstop -->
