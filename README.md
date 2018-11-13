@@ -24,18 +24,54 @@ $ buttercms --help [COMMAND]
 
 # Commands
 <!-- commands -->
-* [`buttercms generate:blog`](#buttercms-generateblog)
+* [`buttercms generate:blog`](#buttercms-generate)
+* [`buttercms generate:page`](#buttercms-generate-page)
+* [`buttercms generate:pages`](#buttercms-generate-pages)
 * [`buttercms help [COMMAND]`](#buttercms-help-command)
 
 ## `buttercms generate:blog`
+
+Create a brand new blog with a set of sample templates
 
 ```
 USAGE
   $ buttercms generate:blog
 
 OPTIONS
-  --for=express  Target destination for the generator command
+  --for=target  Target tech stack to generate the blog for (currently available: express)
+  --auth_token=token The Auth token provided by ButterCMS, this CLI will auto-populate your configuration file with it
+
 ```
+
+## `buttercms generate:page`
+
+Create a new page inside your blog, based on the page you configured on ButterCMS
+
+```
+USAGE
+  $ buttercms generate:page
+
+OPTIONS
+  --for=target  Target tech stack to generate the blog for (currently available: express)
+  --page=page 	The slug of the page you want to retrieve
+  --auth_token=token The Auth token provided by ButterCMS, this CLI will auto-populate your configuration file with it
+
+```
+## `buttercms generate:pages`
+
+Create a list of links for the same type of page
+
+```
+USAGE
+  $ buttercms generate:pages
+
+OPTIONS
+  --for=target  Target tech stack to generate the blog for (currently available: express)
+  --page_type=type 	The slug for the page type you previously created in ButterCMS
+  --auth_token=token The Auth token provided by ButterCMS, this CLI will auto-populate your configuration file with it
+
+``
+
 
 ## `buttercms help [COMMAND]`
 
