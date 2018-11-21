@@ -1,7 +1,7 @@
 {
   "name": "buttercms-cli",
-  "description": "Generate the boilerplate code for a blog using ButterCMS for multiple languages and frameworks",
-  "version": "0.0.3",
+  "description": "Generate the boilerplate code for a blog and pages using ButterCMS for multiple languages and frameworks",
+  "version": "0.0.4",
   "author": "Fernando Doglio @deleteman",
   "bin": {
     "buttercms": "./bin/run"
